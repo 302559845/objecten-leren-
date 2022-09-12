@@ -14,4 +14,9 @@ function __construct(string $naam, int $leeftijd, string $geslacht ){
     echo"\n Nieuw persoon-object aangemaakt" . "<br>";
     echo"\n De property naam is " . $this->naam . "<br>";
 }
+function __destruct(){
+    echo $this->naam . " wordt verwijderd ";
+    echo"<br>";
+
+}
 }

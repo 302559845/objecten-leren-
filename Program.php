@@ -11,7 +11,9 @@
 <?php
 include 'classes/persoon.php';
 $umut = new persoon ("Umut", 18, "M");
+unset($umut);
 $demriel = new persoon ("Demriel", 23, "M");
+
 
 
 ?>
